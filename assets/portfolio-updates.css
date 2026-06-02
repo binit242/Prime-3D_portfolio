@@ -1,0 +1,39 @@
+.work-box {
+  position: relative;
+  cursor: pointer;
+}
+
+.live-badge {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transform: translateX(-50%);
+  color: #58e878;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #43da68a6;
+  animation: livePulse 2.2s ease-in-out infinite;
+}
+
+.live-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #58e878;
+  box-shadow: 0 0 12px #43da68;
+}
+
+@keyframes livePulse {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}

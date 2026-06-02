@@ -93,6 +93,9 @@ Suitable static hosting options include:
 
 No backend service is required for the portfolio snapshot.
 
+Project repository and deployed-site link maintenance is documented in
+[`PORTFOLIO-LINKS.md`](PORTFOLIO-LINKS.md).
+
 ## Model Asset Notes
 
 The browser loads `models/character.enc`, which contains the encrypted character
