@@ -1,1 +1,4 @@
 models/character.glb
+
+# Local Netlify folder
+.netlify
